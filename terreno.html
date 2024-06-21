@@ -1,0 +1,62 @@
+<html> 
+<head>
+<title> Terreno de luis </title> 
+</head>
+<body>
+<center><img src="Encabezado.png"></center><br>
+<center><p><font color="black" size="tahoma" face="19"><strong>Nombre:</strong>Diego Rebollo Nava<strong>Grupo:</strong> 404<strong>Numero de lista</strong>29<strong>Fecha</strong>12/03/2024 <strong> Hora</strong> 12:40 </font></p></center>
+<a href="Menu.html"><img src="imagen1.png" width="150" height="60"></a>
+<script>
+function multiplicacion(){
+var n1= parseInt(document.MyForm.txtNumero1.value);
+var n2= parseInt(document.MyForm.txtNumero2.value);
+var n3= parseInt(document.MyForm.txtNumero3.value);
+
+document.MyForm.txtResultado.value=n1*n2*n3/n3;
+}
+</script>
+
+
+
+
+
+
+
+</body>
+<center><table width="1000" border="1">
+<form name="MyForm">
+<tr>
+<td width="300"><label>Dame la base :</label></td>
+<td width="300"><input type="text" name="txtNumero1"></td>
+<td width="200" rowspan="4"><img src="dis.png"width="200"heigth="300"><center></td>
+</tr>
+
+<tr>
+<td><label>Dame la altura:</label></td>
+<td><input type="text" name="txtNumero2"></td>
+</tr>
+
+<tr>
+<td><label>Dame grosor:</label></td>
+<td><input type="text" name="txtNumero3"></td>
+</tr>
+
+
+
+<tr>
+<td><label>Mostrar Resultado:</label></td>
+<td><input type="text" name="txtResultado"></td>
+</tr>
+<tr>
+<td colspan="2" aling="center"><input type="button" value="multiplicacion" onclick="multiplicacion()"</td>
+
+</tr>
+<table border="1">
+
+</tr>
+</form>
+</table>
+</body>
+</body>
+</html>
+
